@@ -1,1 +1,38 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P-Regular", monospace;
+  --accent-color: #000;
+  --main-background-color: #fff;
+  --tape-svg-fill-color: #fff;
+  --contour-color: #000;
+  --animation-fill-color: red;
+  --animation-hover-core-fill: #000;
+  --animation-hover-mainboddy-fill: #000;
+  --button-text-color: #fff;
+  --main-font-content-weight: 410;
+  --label-font-weight: 400;
+  --main-font-header-weight: 715;
+  --accent-font-button-weight: 400;
+  --card-section-font-size: 18px;
+  --label-stroke-color: #fff;
+  --background-gradient:
+    repeating-linear-gradient(to right, #d3d3d3 0px 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0px 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --adaptive-header-block-size: clamp(
+    327px,
+    calc(327px + (368 - 327) * (100vw - 375px) / (1440 - 375)),
+    368px
+  );
+  --adaptive-inline-size: clamp(375px, 46.8vw, 700px);
+  --adaptive-save-button-inline-size: clamp(
+    32.5px,
+    13.8967vw - 19.6126px,
+    180.5px
+  );
+  --header-adaptive-font-h1-size: clamp(49px, 5.2vw, 65px);
+  --header-adaptive-font-h2-size: clamp(14px, 2.3vw, 23px);
+  --header-margin-block-end: clamp(98px, 7.23vw + 70.8px, 100px);
+  --border: 2px solid black;
+}
