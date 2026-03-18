@@ -94,6 +94,7 @@ img {
 }
 
 .card-label {
+  font-size:14px;
   text-transform: uppercase;
   z-index: 1;
   font-family: var(--accent-font);
