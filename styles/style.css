@@ -150,6 +150,7 @@ img {
 }
 
 .button__text {
+  line-height: 90%;
   font-size: 14px;
   padding-block: 10.5px;
   inline-size: 126px;
@@ -166,6 +167,7 @@ img {
 }
 
 .save-button-text {
+  line-height: 90%;
   align-self: center;
   text-wrap: nowrap;
   font-family: var(--accent-font);
