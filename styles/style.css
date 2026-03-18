@@ -48,6 +48,7 @@ img {
 }
 
 .header-subtitle {
+  text-transform: uppercase;
   font-size: var(--header-adaptive-font-h2-size);
 }
 
@@ -78,8 +79,9 @@ img {
   font-variation-settings:
     "wght" 715,
     "slnt" 0;
-  margin-inline: 10px;
-  margin-block: 4px;
+  padding-inline: 10px;
+  padding-block: 4px;
+  border-bottom: var(--border);
 }
 
 .card-image {
@@ -87,7 +89,7 @@ img {
 }
 
 .card-image-label-wrap {
-  border-block: var(--border);
+  border-inline: var(--border);
   position: relative;
 }
 
@@ -109,12 +111,14 @@ img {
 }
 
 .card-text {
+  line-height: 21px;
+  border-top: var(--border);
   display: flex;
   flex-direction: column;
   gap: 25px;
   font-size: inherit;
-  margin-inline: 25px;
-  margin-block: 25px;
+  padding-inline: 25px;
+  padding-block: 25px;
 }
 
 .card-buttons-container {
@@ -147,7 +151,7 @@ img {
 .button__text {
   font-size: 14px;
   padding-block: 10.5px;
-  inline-size: 130px;
+  inline-size: 126px;
 }
 
 .save-button {

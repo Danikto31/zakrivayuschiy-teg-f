@@ -25,7 +25,7 @@
     calc(327px + (368 - 327) * (100vw - 375px) / (1440 - 375)),
     368px
   );
-  --adaptive-inline-size: clamp(375px, 46.8vw, 700px);
+  --adaptive-inline-size: clamp(375px, 30.516vw + 260.565px, 700px);
   --adaptive-save-button-inline-size: clamp(
     32.5px,
     13.8967vw - 19.6126px,
