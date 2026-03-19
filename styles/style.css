@@ -197,6 +197,7 @@ img {
 }
 
 .dialog-content-paragraph {
+  text-transform: uppercase;
   line-height: 150%;
   max-inline-size: 234px;
 }
